@@ -1,5 +1,5 @@
 {% set name = "dynapydantic" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dynapydantic-{{ version }}.tar.gz
-  sha256: 42116241990de5f82a1e47190115f1420e068ef1c553f03935c4023623235a12
+  sha256: 6a11ebd8a50edc727f70d0f462e3c7be353d45cc17cd3f241603ceb321e35982
 
 build:
   noarch: python
