@@ -1,13 +1,13 @@
 {% set name = "dynapydantic" %}
-{% set version = "0.6.2" %}
+{% set version = "0.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/dynapydantic-{{ version }}.tar.gz
-  sha256: 8d7eab11da3b0b632e885766d01b4c20b8d75d54bd9119f403d26a37ab61188c
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dynapydantic-{{ version }}.tar.gz
+  sha256: 1999710d7f33bcce74495abec2e303289b484317f8e54af971041a6b0c8b9b93
 
 build:
   noarch: python
