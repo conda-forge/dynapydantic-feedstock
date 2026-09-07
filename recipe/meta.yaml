@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - pydantic >=2.0
+    - pydantic >=2.8,<3
 
 test:
   imports:
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  summary: Dyanmic pydantic models
+  summary: Runtime tracking and polymorphic validation for pydantic models
   home: https://github.com/psalvaggio/dynapydantic
   license: MIT
   license_file: LICENSE
