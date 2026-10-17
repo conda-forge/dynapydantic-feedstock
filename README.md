@@ -7,7 +7,7 @@ Home: https://github.com/psalvaggio/dynapydantic
 
 Package license: MIT
 
-Summary: Dyanmic pydantic models
+Summary: Runtime tracking and polymorphic validation for pydantic models
 
 Current build status
 ====================
