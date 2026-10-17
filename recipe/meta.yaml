@@ -1,5 +1,5 @@
 {% set name = "dynapydantic" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/dynapydantic-{{ version }}.tar.gz
-  sha256: 1999710d7f33bcce74495abec2e303289b484317f8e54af971041a6b0c8b9b93
+  sha256: 98da3ce2961ecc49c90d20c717c6af2bb49b0414514f805c1a9af64d8b3e7e2a
 
 build:
   noarch: python
